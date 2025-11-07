@@ -536,119 +536,26 @@ The application implements RAG to provide accurate, source-backed answers from u
 
 ### Application Interface
 
-**Note**: Screenshots demonstrate the working application. Add actual screenshots to a `screenshots/` folder in your repository.
 
 #### 1. Home Page with Upload Interface
 
-```
-[Screenshot: Upload Document section with drag-and-drop area]
-- Shows the upload box with "Click to upload or drag and drop" message
-- Displays file type restrictions (PDF or TXT files, up to 10MB)
-- Purple gradient theme visible
-```
+
 
 #### 2. Document List
 
-```
-[Screenshot: My Documents section with uploaded files]
-- Shows list of uploaded documents with metadata
-- Each document displays: filename, upload time, chunk count, file size
-- Delete button (trash icon) visible on each document card
-- Selected document highlighted with blue ring
-```
+
 
 #### 3. Question & Answer Interface
 
-```
-[Screenshot: Ask Questions section with active query]
-- Shows selected document information at top
-- Question input textarea with example question
-- "Get Answer" button with purple gradient
-- Previous Q&A pairs displayed below
-```
+
 
 #### 4. Answer with Source References
 
-```
-[Screenshot: Expanded answer showing source references]
-- AI-generated answer displayed
-- Processing time shown (e.g., "2.34s")
-- Expandable "Source References" section open
-- Each source shows: Chunk number, Relevance score (%), Chunk text preview
-```
+
 
 #### 5. Upload Progress
 
-```
-[Screenshot: File upload in progress]
-- Selected file information displayed
-- Progress bar showing upload percentage
-- "Uploading and processing..." message with spinner
-```
 
-#### 6. Error Handling
-
-```
-[Screenshot: Custom error modal]
-- Clean modal design with error message
-- User-friendly error description
-- Close button and backdrop
-```
-
-#### 7. Mobile Responsive View
-
-```
-[Screenshot: Application on mobile device]
-- Responsive layout adapting to smaller screen
-- Touch-friendly interface elements
-- Stacked sections for mobile viewing
-```
-
-### API Documentation (Swagger UI)
-
-```
-[Screenshot: FastAPI automatic documentation at http://localhost:8000/docs]
-- Interactive API documentation
-- All endpoints listed with request/response schemas
-- Try-it-out functionality
-```
-
-**To Add Screenshots:**
-
-1. Run the application locally
-2. Take screenshots of each interface
-3. Save them to `screenshots/` folder
-4. Update this section with actual image links:
-   ```markdown
-   ![Home Page](screenshots/home.png)
-   ![Document List](screenshots/documents.png)
-   ![Q&A Interface](screenshots/qa-interface.png)
-   ![Source References](screenshots/sources.png)
-   ```
-
-## Deployment
-
-### Deploy Backend (Railway/Render)
-
-1. Create a new project on [Railway](https://railway.app/) or [Render](https://render.com/)
-2. Connect your GitHub repository
-3. Set environment variables:
-   - `SUPABASE_URL`
-   - `SUPABASE_KEY`
-   - `GROQ_API_KEY`
-4. Deploy!
-
-### Deploy Frontend (Vercel)
-
-1. Push your code to GitHub
-2. Import project to [Vercel](https://vercel.com/)
-3. Set environment variable:
-   - `NEXT_PUBLIC_API_URL` = your backend URL
-4. Deploy!
-
-## License
-
-This project is created for educational purposes.
 
 ## Support
 
