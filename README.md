@@ -538,23 +538,26 @@ The application implements RAG to provide accurate, source-backed answers from u
 
 
 #### 1. Home Page with Upload Interface
+<img width="1889" height="937" alt="Image" src="https://github.com/user-attachments/assets/1c904b77-37f9-47e2-a01a-7dd953f29957" />
 
 
 
 #### 2. Document List
+<img width="929" height="377" alt="Image" src="https://github.com/user-attachments/assets/c08caf98-4a99-47e7-85ff-0a8f116b4839" />
 
 
 
 #### 3. Question & Answer Interface
+<img width="1841" height="567" alt="Image" src="https://github.com/user-attachments/assets/710b1b54-8b1c-4a96-8623-19969b631d9a" />
 
 
 
 #### 4. Answer with Source References
-
+<img width="1220" height="754" alt="Image" src="https://github.com/user-attachments/assets/d4a2d247-fb04-4212-9149-15763ecf4c06" />
 
 
 #### 5. Upload Progress
-
+<img width="877" height="723" alt="Image" src="https://github.com/user-attachments/assets/96460650-2e9f-46b4-b9fa-90f7bcc1bff3" />
 
 
 ## Support
